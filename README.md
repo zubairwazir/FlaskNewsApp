@@ -27,5 +27,21 @@ Open browser and paste the link ***"127.0.0.1:5000"***
 ## Buraaaah, Enjoy Your Flask News App
 <img width="958" alt="Annotation 2021-09-03 232047" src="https://user-images.githubusercontent.com/43387040/132050389-0d06770e-7f27-486c-957c-125fd3aa57f2.png">
 
-### Copyright@2021 by Zubair Ahmad
-https://www.facebook.com/sharer.php?u={url}
+## License
+copyright Copyright (C) 2021 Zubair Ahmad
+
+[![alt text][1.1]][1]
+[![alt text][2.1]][2]
+[![alt text][3.1]][3]
+[![alt text][4.1]][4]
+
+[1.1]: http://i.imgur.com/tXSoThF.png (twitter icon with padding)
+[2.1]: http://i.imgur.com/P3YfQoD.png (facebook icon with padding)
+[3.1]: http://i.imgur.com/0o48UoR.png (github icon with padding)
+[4.1]: http://i.imgur.com/yCsTjba.png (google plus icon with padding)
+
+
+[1]: http://www.twitter.com/zubairwazir777
+[2]: http://www.facebook.com/EngrZubairWazir
+[3]: http://www.github.com/zubairwazir
+[4]: https://plus.google.com/+zubairwazir777
