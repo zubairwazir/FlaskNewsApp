@@ -1,25 +1,25 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<title>Flask Aljazeera English News</title>
+{% extends 'base.html' %}
+{% include 'snippets/navbar.html' %}
 
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-</head>
 
-<body>
-<div class="jumbotron" style="color:black">
-    <h1 style="color:black">Flask Newsapi and Reddit News Aggregate App</h1>
-</div>
-
+{% block content %}
 <div class="container">
+  <h1 class="my-4 text-center">Flask News App</h1>
 
-    {% for headline, link, source in context %}
+
+  {% include 'snippets/form.html' %}
+
+
+    {% for headline, link, source, img in context %}
+
+    <img src="{{img}}" alt="image" width="100%" height="400">
     <h3>Headline: </h3> {{headline}}
     <h4>Link: </h4> {{link}}
     <h4>Source: </h4> {{source}}
+
     {% endfor %}
 
+
 </div>
-</body>
-</html>
+
+{% endblock %}
