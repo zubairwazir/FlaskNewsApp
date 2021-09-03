@@ -107,7 +107,7 @@ def newsapi_news():
 
     
 @app.route('/search_newsapi',methods=['POST']) 
-def search_news():
+def search_newsapi():
     keyword = request.form['keyword']  #getting input from user
     
     newsapi = NewsApiClient(api_key="660bf94fd55d4391bd7166337fb35ae6")
