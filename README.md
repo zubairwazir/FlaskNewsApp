@@ -28,7 +28,10 @@ Open browser and paste the link ***"127.0.0.1:5000"***
 <img width="958" alt="Annotation 2021-09-03 232047" src="https://user-images.githubusercontent.com/43387040/132050389-0d06770e-7f27-486c-957c-125fd3aa57f2.png">
 
 ## License
-copyright Copyright (C) 2021 Zubair Ahmad
+
+This program comes with ABSOLUTELY NO WARRANTY. This is free software, and you are welcome to redistribute it under the conditions of the GPLv3 license.
+
+Copyright (C) 2021 Zubair Ahmad
 
 [![alt text][1.1]][1]
 [![alt text][2.1]][2]
