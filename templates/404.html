@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+{% include 'snippets/navbar.html' %}
+
+
+{% block content %}
+<div class="container">
+  <h1 class="my-4 text-center">Flask News App</h1>
+
+
+  {% include 'snippets/form.html' %}
+
+<center>
+<h1>Page Not Found</h1>
+<p>Woops, that page doesn’t exist! (404)</p>
+<p>Take me back <a href="{{ url_for('index') }}">HOME</a>
+</center>
+</div>
+
+{% endblock %}
