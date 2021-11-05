@@ -1,6 +1,8 @@
 
 # FlaskNewsApp
 
+[<img alt="alt_text" width="100%" height="100%" src="static/images/flask_news.png" />](https://github.com/zubairwazir/FlaskNewsApp/tree/main/static/images/flask_news.png)
+
  Clone the repository by typing ***"git clone https://github.com/zubairwazir/FlaskNewsApp.git"***
 
  Open Terminal/Command Prompt
